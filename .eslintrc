@@ -1,0 +1,57 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "commonjs": true,
+    "jest/globals": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react", "jest"],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "15.0"
+    },
+    "propWrapperFunctions": ["forbidExtraProps"]
+  },
+  "rules": {
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-case-declarations": "error",
+    "no-const-assign": "error",
+    "no-debugger": "error",
+    "no-duplicate-imports": "error",
+    "no-else-return": "error",
+    "no-empty": "error",
+    "no-empty-function": "error",
+    "no-nested-ternary": "error",
+    "no-trailing-spaces": "error",
+    "no-unneeded-ternary": "error",
+    "no-unused-vars": [
+      "error",
+      { "varsIgnorePattern": "^_$", "argsIgnorePattern": "^_$" }
+    ],
+    "no-var": "error",
+    "object-shorthand": ["error", "properties"],
+    "prefer-destructuring": "error",
+    "space-in-parens": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  }
+}
