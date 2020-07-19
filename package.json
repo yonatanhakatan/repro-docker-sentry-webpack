@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "browser-cookies": "^1.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
